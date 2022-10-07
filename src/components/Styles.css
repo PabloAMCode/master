@@ -1,0 +1,32 @@
+.input_text {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.167);
+    background-color: white;
+    border-radius:10px;
+    margin: 2rem auto;
+    margin-right: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.input_text2 {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.167);
+    background-color: white;
+    border-radius:10px;
+    margin-bottom: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.167);
+    border-radius:10px;
+    margin: 10px 0;
+    margin-right: 5px;
+    width: 100%;
+}
