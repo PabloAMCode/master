@@ -5,7 +5,7 @@ import Threads from './Threads';
 function Foro() {
   const [users, setUsers] = useState();
     const getApiData = async () => {
-        const response = await fetch('http://localhost:8080/getUsers').then((response) => response.json());
+        const response = await fetch('http://localhost:8080/threads').then((response) => response.json());
       
         // update the state
         setUsers(response);

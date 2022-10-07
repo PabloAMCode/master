@@ -12,8 +12,8 @@ function Threads(props) {
 
   return (
     <div className='input_text'>
-      <div>{theadData.name}</div>
-      <div>{theadData.email}</div>
+      <div>{theadData.title}</div>
+      <div>{theadData.description}</div>
       <button onClick={() => goToHilos(theadData.id)}>Ir a los hilos</button>
     </div>
   )

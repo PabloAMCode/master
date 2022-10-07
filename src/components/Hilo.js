@@ -10,11 +10,11 @@ function Hilo(props) {
   const theadData = props.data;
   return (
     <div className='input_text'>
-        <span>User: {theadData.name}, </span> <span>Email: {theadData.email}</span>
+        <span>User: {theadData.author}, </span> <span>Date: {theadData.date}</span>
 
-        <p>{theadData.password}</p>
+        <p>{theadData.title}</p>
 
-        <p>{theadData.id}</p>
+        <p>{theadData.content}</p>
 {/* 
         <input type="button" value="Ir al hilo" onClick={redirect()} className='buttons'/> */}
         

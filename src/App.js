@@ -17,7 +17,7 @@ function App() {
         <Route path="/hilos/:id" element={<Hilos/>}></Route>
         <Route path="/foro" element={<Foro/>}></Route>
         <Route path="/hilocontent" element={<HiloContent/>}></Route>
-        <Route path="/crearhilo" element={<CrearHilo/>}></Route>
+        <Route path="/crearhilo/:id" element={<CrearHilo/>}></Route>
         <Route path="*" element={<Login/>}></Route>
       </Routes>
     </Router>
